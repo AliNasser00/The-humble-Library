@@ -106,3 +106,35 @@ h5{
     font-size: 16px;
     cursor: pointer;
 }
+#libraryContent{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+}
+.cards{
+    border :1px solid black;
+    text-align : center;
+    padding:  10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #fdcfbb;
+    box-shadow: #888888;
+    
+}
+
+#delete{
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#delete:hover{
+    scale: 1.05;
+}
